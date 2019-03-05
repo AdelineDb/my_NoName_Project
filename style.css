@@ -1,0 +1,23 @@
+nav
+{
+	font-family: 'VT323';
+	font-size: 2em;
+	background-color: #FF7761 !important;
+}
+
+.navbar-nav a
+{
+	color: white !important;
+}
+
+.navbar-nav a:hover
+{
+	color: #274555 !important;
+	text-decoration: underline;
+}
+
+.navbar-nav a
+{
+	margin-right: 25%;
+	margin-left: 25%;
+}
