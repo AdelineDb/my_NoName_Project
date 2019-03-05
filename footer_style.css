@@ -8,7 +8,12 @@
 }
   footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
     margin-bottom: 30%;
+    
 }  
+    
+    footer ul:last-child li:first-child {
+        margin-top: 15px;
+    }
 }
 
 footer {
@@ -25,9 +30,18 @@ footer ul {
 
 footer ul li a, footer h3 {
     color: aliceblue;
+    font-weight: bold;
 }
 
 footer img {
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+footer ul:first-child {
+    margin-bottom: 8px;
+}
+
+footer ul li a:hover {
+    color: #275555;
 }
