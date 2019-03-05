@@ -1,3 +1,7 @@
+/*************************************************/
+/**********************NAVBAR*********************/
+/*************************************************/
+
 nav
 {
 	font-family: 'VT323';
@@ -20,4 +24,44 @@ nav
 {
 	margin-right: 25%;
 	margin-left: 25%;
+}
+
+/*************************************************/
+/**********************FOOTER*********************/
+/*************************************************/
+
+@media screen and (min-width: 992px){
+    footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+  footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
+    margin-bottom: 30%;
+}
+}
+
+footer {
+    background-color: #FF7761;
+    text-align: center;
+		font-family: 'VT323';
+		font-size: 1.8rem;
+
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+footer ul li a, footer h3 {
+    color: aliceblue;
+}
+
+footer img {
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
