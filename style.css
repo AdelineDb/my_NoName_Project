@@ -6,7 +6,8 @@ nav
 {
 	font-family: 'VT323';
 	font-size: 2em;
-	background-color: #FF7761 !important;
+    background-color: #FF7761 !important;
+    z-index: 9999;
 }
 
 .navbar-nav a
@@ -27,10 +28,168 @@ nav
 }
 
 /*************************************************/
+/**********************WILDERS********************/
+/*************************************************/
+.presentation{
+    font-family: 'Dosis', sans-serif;
+}
+.wilders{
+    font-family: 'VT323';
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.leader{
+    text-align: center;
+}
+
+.php, .js{
+    width: 80%;
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.leader img,
+.leader .option{
+    width: 70%;
+}
+
+.optionphp{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'VT323';
+    font-size: 2.5rem;
+    color: #274555;
+}
+
+.optionjs{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'VT323';
+    font-size: 2.5rem;
+    color: #FDC23E;
+}
+
+.phoenix{
+    display: none;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card:hover{
+    background-color: #FF7761;
+}
+
+.card:hover .name{
+    color: white;
+}
+
+.card .name{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.duo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.adeline{
+    background-image: url("projet/adeline.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adeline:hover{
+    background-image: url("projet/adeline grimace.jpg");
+}
+
+.juliette{
+    background-image: url("projet/juliette.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.juliette:hover{
+    background-image: url("projet/juliette grimace.jpg");
+}
+
+.quentin{
+    background-image: url("projet/quentin.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quentin:hover{
+    background-image: url("projet/quentin dort.jpg");
+}
+
+.flavien{
+    background-image: url("projet/Flavien.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flavien:hover{
+    background-image: url("projet/flavien grimace.jpg");
+}
+
+/*************************************************/
 /**********************FOOTER*********************/
 /*************************************************/
 
 @media screen and (min-width: 992px){
+    .php, .js{
+        width: 50%;
+        font-size: 2.5rem;
+    }
+    .leader img{
+        width: 50%;
+    }
+    .languages{
+        display: flex;
+        align-content: space-between;
+        text-align: center;
+        flex-direction: row;
+    }
+    .bodywilders{
+        background-color: #FF7761
+    }
+    .mainwilders{
+        background-color: white;
+        width: 96%;
+        position: relative;
+        left: 2%;
+    }
+
+
     footer {
     display: flex;
     justify-content: space-around;
