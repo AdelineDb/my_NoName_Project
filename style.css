@@ -2,29 +2,36 @@
 /**********************NAVBAR*********************/
 /*************************************************/
 
-nav
-{
+.navbar-light{
 	font-family: 'VT323';
 	font-size: 2em;
-	background-color: #FF7761 !important;
+	background-color: #FF7761;
 }
 
-.navbar-nav a
-{
-	color: white !important;
+header .navbar-light .navbar-nav .nav-link{
+	color: white;
+    margin: 0 20%;
 }
 
-.navbar-nav a:hover
-{
-	color: #274555 !important;
+.navbar-nav a:hover{
+	color: #274555;
 	text-decoration: underline;
 }
 
-.navbar-nav a
-{
-	margin-right: 25%;
-	margin-left: 25%;
+.navbar-brand{
+    width: 8%;
 }
+
+.phoenix-navbar{
+    width: 100%;
+}
+
+/*************************************************/
+/**********************LAYOUT*********************/
+/*************************************************/
+
+
+
 
 /*************************************************/
 /**********************FOOTER*********************/
@@ -37,14 +44,20 @@ nav
     align-items: center;
 
 
-}
-  footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
+    }
+    footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
     margin-bottom: 30%;
 
-}
+    }
 
     footer ul:last-child li:first-child {
         margin-top: 15px;
+    }
+
+    .title{
+    position: absolute;
+    top:20%;
+    width: 100%;
     }
 }
 
@@ -67,6 +80,9 @@ footer ul {
 
 footer ul li a, footer h3 {
     color: aliceblue;
+}
+
+footer h3{
     font-weight: bold;
 }
 
@@ -80,5 +96,22 @@ footer ul:first-child {
 }
 
 footer ul li a:hover {
-    color: #275555;
+    color: #274555;
+}
+
+.phoenix-footer
+{
+   height:150px;
+   width:150px; 
+}
+
+#blocImage {
+    position: relative;
+}
+
+#blocImage h3{
+    position: absolute;
+    top:30%;
+    width: 50%;
+    left: 25%;
 }
