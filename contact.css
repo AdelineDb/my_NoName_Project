@@ -30,80 +30,11 @@ nav
 /**********************CONTACT********************/
 /*************************************************/
 
-body {
-    font-family: "dosis";
-    color: #274555;
-}
-
 button{
-    display: block;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
     font-family: 'VT323';
-    padding: 10px 20px 10px 20px;
     color: aliceblue;
-    background-color: #274555;  
-    border-style: none;
-    
-}
-
-.title-contact {
-    text-align: center;
-    padding: 15px 0px 15px 0px;
-    color: #274555;
-    font-family: "VT323";
-    font-size: 52px;
-}
-
-.image_maps {
-    width: 80%;
-    height: auto;
-    margin-top: 20px;
-    
-}
-
-.flextry .image_maps {
-    display: block;
-    margin-left: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contactTexte {
-    text-align: center;
-    color: #274555;
-    font-family: "dosis";
-}
-
-.contactTextemargin {
-    text-align: center;
-    margin-top: 15px;
-    color: #274555;
-    font-weight: bold;
-}
-
-.liencontact {
-    color: #274555;
-    margin-bottom: 10px;
-    
-}
-
-:placeholder-shown {
-    border: 1px solid #274555;
-    color: #274555;
-}
-
-::placeholder{
-    font-family: "dosis";
-
-}
-
-.border-select {
-    border: 1px solid #274555;
-    font-family: "dosis";
-    color: #274555;
+    background-color: #274555;
+    border: solid, 2px, #274555;
 }
 
 
