@@ -1,3 +1,7 @@
+body{
+		background-color: aliceblue
+}
+
 h2{
 	font-size: 5rem;
 }
@@ -376,15 +380,6 @@ body {
         align-content: space-between;
         text-align: center;
         flex-direction: row;
-    }
-    .bodywilders{
-        background-color: #FF7761
-    }
-    .mainwilders{
-        background-color: white;
-        width: 96%;
-        position: relative;
-        left: 2%;
     }
 
 		.img_students{
