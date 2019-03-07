@@ -110,6 +110,7 @@ header .navbar-light .navbar-nav .nav-link{
 
 .cont{
     position: relative;
+		margin-top: 75px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -215,14 +216,12 @@ header .navbar-light .navbar-nav .nav-link{
     width: 50%;
     margin-left: 5%;
     margin-right: 5%;
+		color: #274555;
 }
 
 .card:hover{
-    background-color: #FF7761;
-}
-
-.card:hover .name{
-    color: white;
+	text-decoration: none;
+	color: #274555;
 }
 
 .card .name{
@@ -245,10 +244,6 @@ header .navbar-light .navbar-nav .nav-link{
 		margin-right: auto;
 }
 
-.adeline:hover{
-    background-image: url("projet/adeline grimace.jpg");
-}
-
 .juliette{
     background-image: url("projet/juliette.jpg");
     background-size: cover;
@@ -257,10 +252,6 @@ header .navbar-light .navbar-nav .nav-link{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.juliette:hover{
-    background-image: url("projet/juliette grimace.jpg");
 }
 
 .quentin{
@@ -272,10 +263,6 @@ header .navbar-light .navbar-nav .nav-link{
     margin-right: auto;
 }
 
-.quentin:hover{
-    background-image: url("projet/quentin dort.jpg");
-}
-
 .flavien{
     background-image: url("projet/Flavien.jpg");
     background-size: cover;
@@ -283,10 +270,6 @@ header .navbar-light .navbar-nav .nav-link{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.flavien:hover{
-    background-image: url("projet/flavien grimace.jpg");
 }
 /*************************************************/
 /**********************CONTACT********************/
@@ -297,7 +280,7 @@ body {
     color: #274555;
 }
 
-button{
+.button-contact{
     display: block;
     margin-bottom: 20px;
     margin-left: auto;
@@ -403,6 +386,35 @@ button{
         position: relative;
         left: 2%;
     }
+
+		.img_students{
+			height: 300px;
+			width: 200px;
+		}
+
+		.card{
+			width: auto;
+		}
+
+		.card:hover{
+		    background-color: #FF7761;
+		}
+
+		.card:hover .name{
+		    color: white;
+		}
+		.adeline:hover{
+		    background-image: url("projet/adeline grimace.jpg");
+		}
+		.juliette:hover{
+		    background-image: url("projet/juliette grimace.jpg");
+		}
+		.quentin:hover{
+		    background-image: url("projet/quentin dort.jpg");
+		}
+		.flavien:hover{
+		    background-image: url("projet/flavien grimace.jpg");
+		}
 
 
     footer {
