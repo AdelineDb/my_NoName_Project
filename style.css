@@ -240,7 +240,7 @@ header .navbar-light .navbar-nav .nav-link{
 }
 
 .adeline{
-    background-image: url("projet/adeline.jpg");
+    background-image: url("pictures/students/adeline.jpg");
     background-size: cover;
     height: 150px;
     width: 100%;
@@ -249,7 +249,7 @@ header .navbar-light .navbar-nav .nav-link{
 }
 
 .juliette{
-    background-image: url("projet/juliette.jpg");
+    background-image: url("pictures/students/juliette.jpg");
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -259,7 +259,7 @@ header .navbar-light .navbar-nav .nav-link{
 }
 
 .quentin{
-    background-image: url("projet/quentin.jpg");
+    background-image: url("pictures/students/quentin.jpg");
     background-size: cover;
     height: 150px;
     width: 100%;
@@ -268,7 +268,7 @@ header .navbar-light .navbar-nav .nav-link{
 }
 
 .flavien{
-    background-image: url("projet/Flavien.jpg");
+    background-image: url("pictures/students/Flavien.jpg");
     background-size: cover;
     height: 150px;
     width: 100%;
@@ -399,16 +399,16 @@ body {
 		    color: white;
 		}
 		.adeline:hover{
-		    background-image: url("projet/adeline grimace.jpg");
+		    background-image: url("pictures/students/adeline grimace.jpg");
 		}
 		.juliette:hover{
-		    background-image: url("projet/juliette grimace.jpg");
+		    background-image: url("pictures/students/juliette grimace.jpg");
 		}
 		.quentin:hover{
-		    background-image: url("projet/quentin dort.jpg");
+		    background-image: url("pictures/students/quentin dort.jpg");
 		}
 		.flavien:hover{
-		    background-image: url("projet/flavien grimace.jpg");
+		    background-image: url("pictures/students/flavien grimace.jpg");
 		}
 
 
