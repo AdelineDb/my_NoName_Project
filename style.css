@@ -67,6 +67,12 @@ header .navbar-light .navbar-nav .nav-link{
     margin-bottom: 6%;
 }
 
+.tampons{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 .ficheid{
     position: relative;
     border-width:2px;
