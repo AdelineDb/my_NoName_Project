@@ -1,3 +1,7 @@
+h2{
+	font-size: 5rem;
+}
+
 /*************************************************/
 /**********************NAVBAR*********************/
 /*************************************************/
@@ -160,9 +164,8 @@ header .navbar-light .navbar-nav .nav-link{
 }
 .wilders{
     font-family: 'VT323';
-    font-size: 5rem;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 150px;
     padding-bottom: 30px;
 }
 .leader{
@@ -302,7 +305,7 @@ button{
     font-size: 20px;
     font-family: 'VT323';
     padding: 10px 20px 10px 20px;
-    color: aliceblue;
+    color: white;
     background-color: #274555;
     border-style: none;
 
@@ -313,7 +316,7 @@ button{
     padding: 15px 0px 15px 0px;
     color: #274555;
     font-family: "VT323";
-    font-size: 52px;
+		margin-top: 150px;
 }
 
 .image_maps {
@@ -410,12 +413,12 @@ button{
 
     }
     footer ul:first-child li:first-child, footer ul:first-child li:nth-child(2) {
-    margin-bottom: 30%;
+    margin-bottom: 13%;
 
     }
 
     footer ul:last-child li:first-child {
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
     .title{
@@ -443,7 +446,7 @@ footer ul {
 
 
 footer ul li a, footer h3 {
-    color: aliceblue;
+    color: white;
 }
 
 footer h3{
@@ -452,7 +455,7 @@ footer h3{
 
 footer img {
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: ;
 }
 
 footer ul:first-child {
@@ -484,6 +487,14 @@ footer ul li a:hover {
 {
    height:150px;
    width:150px;
+}
+
+footer ul:first-child{
+	font-size: 1.5rem;
+}
+
+footer ul:last-child li:first-child {
+		font-size: 2.5rem;
 }
 
 #blocImage {
