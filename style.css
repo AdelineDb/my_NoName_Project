@@ -1,5 +1,7 @@
 body{
-		background-color: aliceblue
+		background-color: aliceblue;
+		font-family: "dosis";
+    color: #274555;
 }
 
 h2{
@@ -220,7 +222,14 @@ header .navbar-light .navbar-nav .nav-link{
     width: 50%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.php .card{
 		color: #274555;
+}
+
+.js .card{
+	color: #cc9900;
 }
 
 .card:hover{
@@ -278,11 +287,6 @@ header .navbar-light .navbar-nav .nav-link{
 /*************************************************/
 /**********************CONTACT********************/
 /*************************************************/
-
-body {
-    font-family: "dosis";
-    color: #274555;
-}
 
 .button-contact{
     display: block;
@@ -398,16 +402,16 @@ body {
 		.card:hover .name{
 		    color: white;
 		}
-		.adeline:hover{
+		.card:hover .adeline{
 		    background-image: url("pictures/students/adeline grimace.jpg");
 		}
-		.juliette:hover{
+		.card:hover .juliette{
 		    background-image: url("pictures/students/juliette grimace.jpg");
 		}
-		.quentin:hover{
+		.card:hover .quentin{
 		    background-image: url("pictures/students/quentin dort.jpg");
 		}
-		.flavien:hover{
+		.card:hover .flavien{
 		    background-image: url("pictures/students/flavien grimace.jpg");
 		}
 
