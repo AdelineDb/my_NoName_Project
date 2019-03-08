@@ -73,6 +73,8 @@ header .navbar-light .navbar-nav .nav-link{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	width: 40%;
+	height: auto;
 }
 
 .ficheid{
